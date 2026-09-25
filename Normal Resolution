@@ -1,0 +1,1 @@
+go run ./cmd -rows 64 -cols 64 -http :9090 -init "#00FF00"
