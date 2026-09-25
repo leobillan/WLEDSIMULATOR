@@ -1,0 +1,4 @@
+git clone https://github.com/13rac1/wled-simulator
+cd wled-simulator
+go mod tidy
+go run ./cmd -rows 10 -cols 3 -http :9090 -init "#00FF00"
